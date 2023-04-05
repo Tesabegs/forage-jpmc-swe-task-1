@@ -1,0 +1,9 @@
+{
+    "name": "forage-jpmc-swe-task-1",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "npm-run-all --parallel start-python",
+      "start-python": "python client3.py"
+    }
+  }
+  
