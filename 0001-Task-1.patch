@@ -1,0 +1,38 @@
+From f4eec2c494f7a912ff4849e4ba47327724782675 Mon Sep 17 00:00:00 2001
+From: Theresa Abegunde <tess@theresas-mbp.home>
+Date: Wed, 5 Apr 2023 18:52:52 +0100
+Subject: [PATCH] Task 1
+
+---
+ package-lock.json | 1 +
+ package.json      | 3 +--
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/package-lock.json b/package-lock.json
+index b8db211..1a49c27 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -3,4 +3,5 @@
+   "lockfileVersion": 3,
+   "requires": true,
+   "packages": {}
++  
+ }
+diff --git a/package.json b/package.json
+index 6025e0e..64d4a28 100644
+--- a/package.json
++++ b/package.json
+@@ -2,8 +2,7 @@
+     "name": "forage-jpmc-swe-task-1",
+     "version": "1.0.0",
+     "scripts": {
+-      "start": "npm-run-all --parallel start-python",
+-      "start-python": "python client3.py"
++      "start": "client3.py"
+     }
+   }
+   
+\ No newline at end of file
+-- 
+2.39.2 (Apple Git-143)
+
